@@ -187,7 +187,7 @@ export default function Home() {
     { name: 'JavaScript', level: 4 },
     { name: 'PHP', level: 3 },
     { name: 'SQL', level: 5 },
-    { name: 'R', level: 4 },npn
+    { name: 'R', level: 4 },
     { name: 'Scala', level: 3 },
     { name: 'Java', level: 3 },
   ];

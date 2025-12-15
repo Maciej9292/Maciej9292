@@ -182,12 +182,12 @@ const styles = stylex.create({
 
 export default function Home() {
   const languageSkills = [
-    { name: 'HTML & CSS', level: 5 },
+    { name: 'smartness', level: 5 },
     { name: 'Python', level: 4 },
     { name: 'JavaScript', level: 4 },
     { name: 'PHP', level: 3 },
     { name: 'SQL', level: 5 },
-    { name: 'R', level: 4 },
+    { name: 'R', level: 4 },npn
     { name: 'Scala', level: 3 },
     { name: 'Java', level: 3 },
   ];

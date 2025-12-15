@@ -3,8 +3,8 @@ const stylexPlugin = require("@stylexjs/nextjs-plugin");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: process.env.NODE_ENV === 'production' ? "/maciek" : "",
-  assetPrefix: process.env.NODE_ENV === 'production' ? "/maciek/" : "",
+  basePath: process.env.NODE_ENV === 'production' ? "/Maciej9292" : "",
+  assetPrefix: process.env.NODE_ENV === 'production' ? "/Maciej9292/" : "",
   trailingSlash: true,
   images: {
     unoptimized: true,

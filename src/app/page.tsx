@@ -181,7 +181,7 @@ const styles = stylex.create({
 });
 
 export default function Home() {
-  const languageSkills = [
+  const softwareSkills = [
     { name: 'smartness', level: 5 },
     { name: 'nlnnl', level: 4 },
     { name: 'JavaScript', level: 4 },
@@ -192,7 +192,7 @@ export default function Home() {
     { name: 'Java', level: 3 },
   ];
 
-  const frameworkSkills = [
+  const mechanicalSkills = [
     { name: 'React', level: 4 },
     { name: 'Flask', level: 4 },
     { name: 'Django', level: 4 },
@@ -206,7 +206,7 @@ export default function Home() {
     { name: 'Spark', level: 3 },
   ];
 
-  const cloudSkills = [
+  const materialSkills = [
     { name: 'AWS', level: 3 },
     { name: 'GCP', level: 4 },
     { name: 'Firebase', level: 5 },
@@ -215,18 +215,7 @@ export default function Home() {
     { name: 'Azure', level: 3 },
   ];
 
-  const databaseSkills = [
-    { name: 'MySQL', level: 5 },
-    { name: 'PostgreSQL', level: 4 },
-    { name: 'MongoDB', level: 3 },
-    { name: 'SQLite', level: 4 },
-    { name: 'Firebase', level: 5 },
-    { name: 'DynamoDB', level: 3 },
-    { name: 'Minio', level: 3 },
-    { name: 'AWS RDS', level: 5 },
-  ];
-
-  const devServiceSkills = [
+  const specialSkills = [
     { name: 'GitHub', level: 5 },
     { name: 'Google Drive', level: 5 },
     { name: 'Microsoft Office', level: 4 },
@@ -241,21 +230,9 @@ export default function Home() {
     { name: 'Eclipse', level: 4 },
     { name: 'RStudio', level: 4 },
     { name: 'VirtualBox', level: 5 },
-    { name: 'VMWare', level: 3 },
-    { name: 'Jupyter', level: 5 },
-    { name: 'Terraform', level: 4 },
-    { name: 'Vagrant', level: 4 },
-    { name: 'Vault', level: 3 },
-    { name: 'Wireshark', level: 3 },
-    { name: 'Fiddler', level: 3 },
-    { name: 'Discord', level: 5 },
-    { name: 'WebEx', level: 5 },
-    { name: 'OpenAI ChatGPT', level: 5 },
-    { name: 'Anthropic Claude', level: 5 },
-    { name: 'GitHub Co-Pilot', level: 5 },
   ];
 
-  const techCourses = [
+  const courses = [
     {
       name: "Applied AI & Deep Learning",
       topics: "Game Theory, Deep Learning, Reinforcement Learning, Generative AI, NLP, Neural Networks",
@@ -338,53 +315,6 @@ export default function Home() {
     },
   ];
 
-  const financeCourses = [
-    {
-      name: "Economic Analysis of Capital Investments",
-      topics: "Net Present Value (NPV), Internal Rate of Return (IRR), Equivalent Uniform Befefit/Cost, Taxes, Inflation, Risk",
-      date: "FALL 2023"
-    },
-    {
-      name: "Machine Learning for Finance",
-      topics: "Linear & Non-Linear Regression, Ensemble Algorithms, Neural Networks (RNN, LSTM), NLP, Sentiment Analysis, Time-Series Forecasting",
-      date: "FALL 2025"
-    },
-    {
-      name: "Investments",
-      topics: "Portfolio Theory, Asset Pricing Models (CAPM & APT), Diversification, Efficient Market Hypothesis, Behavioral Finance",
-      date: "FALL 2024"
-    },
-    {
-      name: "Financial Derivatives",
-      topics: "Options, Futures, Forwards, Swaps, Hedging Strategies, Pricing Models (Black-Scholes, Binomial Tree), Greeks",
-      date: "SPRING 2024"
-    },
-    {
-      name: "Buisness Economics",
-      topics: "Microeconomics, Market Structures, Pricing Strategies, Game Theory, Market Failures, Externalities, Buisness Cycles",
-      date: "SPRING 2025"
-    },
-    {
-      name: "Buisness Statistics",
-      topics: "Modeling, Hypothesis Testing, Regression Analysis, Time Series Analysis, Forecasting, Decision Trees, ANOVA",
-      date: "SPRING 2025"
-    },
-    {
-      name: "Principles of Economics",
-      topics: "Macroeconomics, Microeconomics, Supply and Demand, Fiscal and Monetary Policy, Economic Indicators",
-      date: "FALL 2022"
-    },
-    {
-      name: "Financial and Managerial Accounting",
-      topics: "GAAP, IFRS, Financial Statements (Balance Sheet, Income Statement, Cash Flow Statement), Accrual & Cash Accounting, Cost Systems",
-      date: "SPRING 2023"
-    },
-    {
-      name: "Rise of Global Economy",
-      topics: "Colonialism, Mercantilism, Industrial Revolution, Bretton Woods System, Globalization, Trade Wars, Emerging Markets",
-      date: "SPRING 2022"
-    },
-  ];
 
   const [linkedInHover, setLinkedInHover] = React.useState(false);
   const [githubHover, setGithubHover] = React.useState(false);
@@ -396,19 +326,18 @@ export default function Home() {
           <h1 {...stylex.props(styles.name)}>Maciek Matusiak</h1>
           <h2 {...stylex.props(styles.title)}>
             <div {...stylex.props(styles.expertiseBadges)}>
-              <span {...stylex.props(styles.expertiseBadge)}>Interest 1</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Interest 2</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Interest 3</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Interest 4</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Interest 5</span>
+              <span {...stylex.props(styles.expertiseBadge)}>Gas Propulsion</span>
+              <span {...stylex.props(styles.expertiseBadge)}>Turbomachinery</span>
+              <span {...stylex.props(styles.expertiseBadge)}>System Design</span>
+              
             </div>
           </h2>
           <div {...stylex.props(styles.contact)}>
             <span {...stylex.props(styles.contactItem)}>
-              📧 maciek@personalemail.com, maciek@hawk.iit.edu
+              📧 maciek@personalemail.com, maciek@hawk.illinoistechs.edu
             </span>
             <span {...stylex.props(styles.contactItem)}>
-              📱 (123)-456-7891
+              📱 (224)-258-7043
             </span>
             <span {...stylex.props(styles.contactItem)}>
               📍 Chicago, IL
@@ -440,7 +369,7 @@ export default function Home() {
               </svg>
             </a>
             <a 
-              href="https://github.com/maciek" 
+              href="https://github.com/Maciej9292" 
               target="_blank" 
               rel="noopener noreferrer"
               {...stylex.props(styles.socialIcon)}
@@ -469,107 +398,73 @@ export default function Home() {
           <h2 {...stylex.props(styles.sectionTitle)}>Education</h2>
           <div {...stylex.props(styles.gridLayout)}>
             <EducationItem
-              degree="B.A.C. Information Technology & Management"
+              degree="B.S. in Aerospace Engineering"
               institution="Illinois Institute of Technology"
               dateRange="AUGUST 2021 - MAY 2026"
               location="CHICAGO, IL"
-              minor="Minor in Finance"
+             
             />
-            <EducationItem
-              degree="M.A.S. Information Technology & Management"
-              institution="Illinois Institute of Technology"
-              dateRange="JANUARY 2023 - MAY 2026"
-              location="CHICAGO, IL"
-              minor="Specialization in Applied AI & ML"
-            />
+            
+            
           </div>
         </section>
 
-        <section {...stylex.props(styles.section)}>
-          <h2 {...stylex.props(styles.sectionTitle)}>Experience</h2>
-          <ExperienceItem
-            position="IT & Security Consultant"
-            company="Freelance"
-            dateRange="JUNE 2024 - PRESENT"
-            location="VARIOUS"
-          />
-          <ExperienceItem
-            position="Bank Teller (Seasonal)"
-            company="Merrimack County Savings Bank"
-            dateRange="JUNE 2023 - AUGUST 2023"
-            location="CONCORD, NH"
-          />
-          <ExperienceItem
-            position="Bank Teller (Seasonal)"
-            company="Franklin Savings Bank"
-            dateRange="MAY 2022 - AUGUST 2022"
-            location="FRANKLIN, NH"
-          />
-        </section>
+      
 
         <section {...stylex.props(styles.section)}>
-          <h2 {...stylex.props(styles.sectionTitle)}>Projects & Startups</h2>
+          <h2 {...stylex.props(styles.sectionTitle)}>Projects</h2>
           <ProjectItem
-            name="VisionKernel"
-            description="Time-series data management and analysis platform for the financial industry."
-            technologies="React, Python, SQL, AWS (RDS, EC2), Google Cloud (Cloud Run, Cloud Run functions), Firebase"
-            link="https://visionkernel.co"
+            name="Axial Compressor Design"
+            description="Poject focused on the design and analysis of an axial compressor for a small gas turbine engine, including performance simulations and mechanical design considerations."
+            technologies="Fusion 360, Python, Ansys CFD, Autodesk CFD, experimental testing, 3D printing, wind tunnel testing, FEA analysis"
+            link="https://www.example.com"
           />
           <ProjectItem
-            name="Centerspoke"
-            description="Open source CLI with tools such as file conversion, with main functionality for interacting with cloud database systems."
-            technologies="Python, SQL, AWS (RDS), MySQL"
-            link="https://github.com/visionkernel/centerspoke"
+            name="Subsonic Wind Tunnel"
+            description="Project involved the design, construction, and testing of a subsonic wind tunnel for aerodynamic experiments and educational purposes."
+            technologies="Fusion 360, Python, Ansys CFD, Autodesk CFD, experimental testing, 3D printing"
+            link="https://www.example.com"
           />
           <ProjectItem
-            name="Evoweb"
-            description="An easily containerized web app that generates dynamic web content using client-side LLMs with reference from JSON data"
-            technologies="Svelte, JavaScript, LLMs (Phi-2, Llama-2-7B)"
-            link="https://github.com/nicksimpkins/evoweb"
+            name="Cascade Wind Tunnel"
+            description="Design and development of a cascade wind tunnel to study the aerodynamic performance of airfoil cascades used in turbomachinery applications."
+            technologies="Fusion 360, Python, Ansys CFD, Autodesk CFD, experimental testing, 3D printing"
+            link="https://www.example.com"
           />
           <ProjectItem
-            name="Soteria"
-            description="University backed project aimed at creating a dynamic and intelligent safety system for buildings."
-            technologies="Python, Raspberry Pi, Ubuntu, Arduino, Breadboards, Sensors, LEDs"
-            link="https://www.facebook.com/100064282262283/about/?_rdr"
+            name="Ion Thruster"
+            description="Project centered on the design of a simple small-scale ion thruster for spacecraft propulsion, including plasma generation."
+            technologies="Fusion 360, 3D printing, experimental testing, high voltage systems"
+            link="https://www.example.com"
           />  
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Skills</h2>
-          <SkillCategory title="Languages" skills={languageSkills} />
-          <SkillCategory title="Frameworks & Libraries" skills={frameworkSkills} />
-          <SkillCategory title="Cloud Services" skills={cloudSkills} />
-          <SkillCategory title="Databases" skills={databaseSkills} />
-          <SkillCategory title="Development Tools" skills={devServiceSkills} />
+          <SkillCategory title="Software & Tech" skills={softwareSkills} />
+          <SkillCategory title="Mech. Eng. Skills" skills={mechanicalSkills} />
+          <SkillCategory title="Material Science" skills={materialSkills} />
+          <SkillCategory title="Aero & Special Skills" skills={specialSkills} />
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Courses</h2>
-          <CourseCategory title="Technology Courses" courses={techCourses} />
-          <CourseCategory title="Finance Courses" courses={financeCourses} />
+          <CourseCategory title="Engineering Courses" courses={courses} />
         </section>
 
-        <section {...stylex.props(styles.section)}>
-          <h2 {...stylex.props(styles.sectionTitle)}>Certifications</h2>
-          <div {...stylex.props(styles.certItem)}>FINRA SIE (Securities Industry Essentials)</div>
-        </section>
-
+        
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Achievements & Involvements</h2>
           <div {...stylex.props(styles.gridLayout)}>
-            <div {...stylex.props(styles.certItem)}>Illinois Tech College of Computing Dean&apos;s List</div>
-            <div {...stylex.props(styles.certItem)}>New Hampshire Scholar</div>
-            <div {...stylex.props(styles.certItem)}>IIT ITM Organization</div>
-            <div {...stylex.props(styles.certItem)}>Stuart School of Business Investment Club</div>
-            <div {...stylex.props(styles.certItem)}>CME Group University Trading Challenge</div>
+            <div {...stylex.props(styles.certItem)}>Founder and President, IIT Propulsion</div>
+            <div {...stylex.props(styles.certItem)}>NCAA Men's Soccer Student Athlete</div>
           </div>
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Interests & Expertise</h2>
           <p {...stylex.props(styles.interests)}>
-            I focus on the intersection of technology and finance, working with large datasets for machine learning and statistical analysis. Recently, I've explored LLMs and AI image generation technologies, from lightweight models like Phi-2 to more robust systems like Deepseek R-1. I have extensive experience with cloud services, particularly Google Cloud and AWS, developing the backend infrastructure for my VisionKernel startup. My expertise includes API engineering for financial data, working with RESTful APIs and GraphQL, and handling various data formats including JSON, XML, and SDMX.
+            I focus on gas propulsion and turbomachinery systems, with a strong interest in aerodynamics and design.
           </p>
         </section>
         
